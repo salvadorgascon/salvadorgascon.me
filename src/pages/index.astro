@@ -24,7 +24,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Salvador Gascon Blog
+        Blog de Salvador Gascon
       </h1>
       <a
         target="_blank"
@@ -42,20 +42,20 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        This is my personal blog.
+        Este es mi blog personal.
       </p>
       <br>
       <p>
-        I write about software development, data, and practical lessons I learn along the way.
+        Escribo sobre procesos, datos y desarrollo de software.
       </p>
       <br>
       <p class="mt-2">
-        Read the latest posts or learn more 
+        Lee mis últimas entradas o más sobre mi 
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="/about"
         >
-          about me
+          sobre mi
         </LinkButton>.
       </p>
       {
@@ -78,7 +78,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
             { "border-b border-border": recentPosts.length > 0 },
           ]}
         >
-          <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Entradas destacadas</h2>
           <ul>
             {featuredPosts.map(data => (
               <Card variant="h3" {...data} />
@@ -91,7 +91,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Últimas entradas</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -104,7 +104,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        Todas las entradas
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>

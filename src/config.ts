@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://salvadorgascon.me/", // replace this with your deployed domain
   author: "Salvador Gascon",
   profile: "https://salvadorgascon.me/",
-  desc: "My personal blog.",
+  desc: "Mi blog personal",
   title: "Salvador Gascon Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
@@ -18,6 +18,6 @@ export const SITE = {
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
-  lang: "en", // html lang code. Set this empty and default will be "en"
+  lang: "es", // html lang code. Set this empty and default will be "en"
   timezone: "Europe/Madrid", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;

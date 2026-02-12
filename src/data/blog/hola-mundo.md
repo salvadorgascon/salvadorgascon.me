@@ -1,12 +1,12 @@
 ---
 author: Salvador Gascon
 pubDatetime: 2026-02-12T18:47:29Z
-title: Hello world
-slug: hello-world
+title: Hola mundo
+slug: hola-mundo
 featured: false
 draft: false
 description:
-  Hello world post
+  Entrada de hola mundo
 ---
 
-This is the hello world post.
+Esta es la entrada de hola mundo.
