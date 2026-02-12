@@ -3,20 +3,20 @@ layout: ../layouts/AboutLayout.astro
 title: "Sobre mi"
 ---
 
-## What you’ll find here
+## Lo que estoy construyendo ahora
 
-## Who this is for
+Estoy analizando el mercado logistico con el objetivo de desarrollar una solución Saas.
 
-## Why trust this
+## Para quién es (y para quién no)
 
-## Start here
+## En qué te puedo ayudar
 
-## Now
+## Qué vas a encontrar en este blog
 
-## Tools & Setup
+## Cómo trabajo
 
-## Contact
+## Señales / resultados (hasta ahora)
 
-## FAQ mini
+## Por dónde empezar
 
-
+## Hablemos (o Contacto)
