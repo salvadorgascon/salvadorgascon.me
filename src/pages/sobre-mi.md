@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Sobre mi"
 ---
 
 ## What you’ll find here
