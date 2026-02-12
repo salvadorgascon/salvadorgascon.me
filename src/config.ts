@@ -3,7 +3,7 @@ export const SITE = {
   author: "Salvador Gascon",
   profile: "https://salvadorgascon.me/",
   desc: "Mi blog personal",
-  title: "Salvador Gascon Blog",
+  title: "Salvador Gascon",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
   postPerIndex: 4,
