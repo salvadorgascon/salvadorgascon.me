@@ -5,7 +5,7 @@ export const SITE = {
   desc: "My personal blog.",
   title: "Salvador Gascon Blog",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
