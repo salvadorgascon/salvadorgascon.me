@@ -59,15 +59,23 @@ export default defineConfig({
   },
   experimental: {
     preserveScriptOrder: true,
-    fonts: [
+    fonts: [      
       {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
+        name: "Quicksand",
+        cssVariable: "--font-quicksand",
         provider: fontProviders.google(),
-        fallbacks: ["monospace"],
+        fallbacks: ["ui-sans-serif", "system-ui", "sans-serif"],
         weights: [300, 400, 500, 600, 700],
         styles: ["normal", "italic"],
       },
+      {
+        name: "Nunito",
+        cssVariable: "--font-nunito",
+        provider: fontProviders.google(),
+        fallbacks: ["ui-sans-serif", "system-ui", "sans-serif"],
+        weights: [200,300, 400, 500, 600, 700,800,900],
+        styles: ["normal", "italic"],
+      },      
     ],
   },
 });
