@@ -90,18 +90,18 @@ const isActive = (path: string) => {
           SITE.showArchives && (
             <li class="col-span-2">
               <LinkButton
-                href="/archives"
+                href="/archivos"
                 class:list={[
                   "focus-outline flex justify-center p-3 sm:p-1",
                   {
-                    "active-nav [&>svg]:stroke-accent": isActive("/archives"),
+                    "active-nav [&>svg]:stroke-accent": isActive("/archivos"),
                   },
                 ]}
-                title="Archives"
-                aria-label="archives"
+                title="Archivos"
+                aria-label="archivos"
               >
                 <IconArchive class="hidden sm:inline-block" />
-                <span class="sm:sr-only">Archives</span>
+                <span class="sm:sr-only">Archivos</span>
               </LinkButton>
             </li>
           )
